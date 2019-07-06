@@ -1,10 +1,10 @@
 <template>
     <div>
+
         <h1>
-            INDEX!!!!!!!!!!!!
+            <!-- INDEX!!!!!!!!!!!! -->
         </h1>
         <router-view></router-view>
-        <component :is=""></component>
     </div>
 </template>
 
