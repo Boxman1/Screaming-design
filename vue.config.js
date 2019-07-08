@@ -1,4 +1,5 @@
 module.exports = {
+  runtimeCompiler: true,
   devServer: {
     proxy: {
       'v2': {
@@ -17,5 +18,6 @@ module.exports = {
         changeOrigin: true
       }
     }
+
   }
 }

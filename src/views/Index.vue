@@ -1,16 +1,15 @@
 <template>
     <div>
-
-        <h1>
-            <!-- INDEX!!!!!!!!!!!! -->
-        </h1>
-        <router-view></router-view>
+        <Nav></Nav>
     </div>
 </template>
 
 <script>
+import Nav from '../views/nav/Nav'
 export default {
-
+  components: {
+    Nav
+  }
 }
 </script>
 

@@ -1,17 +1,17 @@
 <template>
   <div>
-    <Nav></Nav>
+    <!-- <Nav></Nav> -->
     <router-view></router-view>
     <Tabbar></Tabbar>
   </div>
 </template>
 
 <script>
-import Nav from './views/nav/Nav'
+// import Nav from './views/nav/Nav'
 import Tabbar from './components/Tabbar'
 export default {
   components: {
-    Nav,
+    // Nav,
     Tabbar
   }
 }

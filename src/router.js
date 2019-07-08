@@ -10,6 +10,7 @@ import Recommend from './views/Index/Recommend.vue'
 import Furniture from './views/Index/Furniture.vue'
 import HomeFurniture from './views/Index/homeFurniture.vue'
 import Activity from './views/Index/Activity.vue'
+import Category from './views/Index/Category.vue'
 
 Vue.use(Router)
 
@@ -38,6 +39,10 @@ const router = new Router({
           component: Activity
         }
       ]
+    },
+    {
+      path: '/category',
+      component: Category
     },
     {
       path: '/cart',
